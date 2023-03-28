@@ -1,0 +1,6 @@
+var input = require('fs').readFileSync('/dev/stdin', 'utf8');
+var [x, y] = input.split('\n').map(item =>parseInt(item));  
+
+console.log(`X = ${x + y}`)
+
+// como fazer um input no uri 

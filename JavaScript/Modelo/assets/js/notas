@@ -1,0 +1,10 @@
+e.target: ele recebe exatamente quando elemento foi clicado na pag
+
+para verificar se peso ow altura é falso, podemos usar !peso no if 
+
+nos níveis de "em peso, sobrepeso, obeso etc..." podia ter sido colocado
+em um array dentro de uma função
+
+no if podia simplemente usar o nome a listae o indice de cada um 
+
+createElement é usado para criar um paragrafo
