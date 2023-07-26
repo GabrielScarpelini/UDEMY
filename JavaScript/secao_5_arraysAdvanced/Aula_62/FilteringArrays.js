@@ -33,7 +33,7 @@ const NumerosFiltrados = numbers.filter((valor, indice , array) => { // aqui usa
         return valor > 10 
 }) 
 // const NumerosFiltrados = numbers.filter(valor => valor > 10) //aqui a forma direta sem chaves nem return
-// console.log(NumerosFiltrados)
+console.log(NumerosFiltrados)
 
 
 console.log('******************************************************')

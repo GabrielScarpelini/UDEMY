@@ -45,7 +45,7 @@ console.log(nomes)
 console.log(novo)
 
 console.log("*********************************************************")
-console.log(novo.length) // é um é um atributo, então no usa os ()
+console.log(novo.length) // é um atributo, então no usa os ()
 
 console.log("*********************************************************")
 var mena = novo.pop()    // o pop remove e dá para atiuir numa variável
