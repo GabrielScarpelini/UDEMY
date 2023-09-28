@@ -1,0 +1,8 @@
+não é um sistema de virtualização tradicional 
+
+é uma engine de adminitração de containers
+é isolado do sistema host, existe um sistema de arquivos isolado
+
+utiliza linux container lXC (linux container)
+
+openSource, o container usa o kernel da maquina host
