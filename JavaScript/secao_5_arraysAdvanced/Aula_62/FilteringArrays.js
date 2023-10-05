@@ -28,7 +28,7 @@ function callBackFilter(valor){ // forma longa para enteder como funfa
                                 // se for usar isso em mais de um local crie assim, se não pode fazer como abaixo
 }                               // não precisa colocar os () por o filter já executa a função
 
-const NumerosFiltrados = numbers.filter((valor, indice , array) => { // aqui usando o indice e o array
+const NumerosFiltrados = numbers.filter((valor, indice, array) => { // aqui usando o indice e o array
         console.log(`${valor} no indice ${indice}, do array [${array}]`)
         return valor > 10 
 }) 

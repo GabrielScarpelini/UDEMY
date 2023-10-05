@@ -1,0 +1,22 @@
+8th class conceitosDocker{
+    não é um sistema de virtualização tradicional 
+
+    é uma engine de adminitração de containers
+    é isolado do sistema host, existe um sistema de arquivos isolado
+
+    utiliza linux container lXC (linux container)
+
+    openSource, o container usa  o kernel da maquina host
+
+    empacota software com vários níveis de isolamento
+}
+
+10th class containers{
+    sistema de arquivos isolado criados da imagem docker (modelo)
+    ambientes leves e portáveis
+    encapsula todos os binários e bibliotecas necessárias para execução de uma App
+    
+    é bom separar em contaners o back, o front o banco
+
+    chroot = é um comando que redefine a pasta raiz de um processo que tu quer executar
+}

@@ -1,0 +1,3 @@
+o que é o next, é um framework de front que é usado com react
+
+Static Side Generation SSG é mais performatico do que SSR Server Side Rendering

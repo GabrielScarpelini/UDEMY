@@ -22,7 +22,7 @@ console.log("***************************************************************")
 //tem como fazer com indices negativos
 //               -6         -5          -4        -3         -2        -1 
 //                0          1           2         3          4         5
-const nome = ['Gabriel', 'Ariadne', 'Andreia', 'Cristina', 'Cesar', "Antônio"]
+const nome = ['Gabriel', 'Sthefane', 'Fran', 'Cristina', 'Jerry', "Antônio"]
 
 //const removed = nome.splice(-3, 3) // aqui será removido 3 para a direita, contando o -3
 const removed = nome.splice(-3, Number.MAX_VALUE) // essa função vai até o maior número do index
@@ -33,7 +33,7 @@ console.log("***************************************************************")
 
 //aqui sem tirar nenhum index e adicionando outro 
 
-const names = ['Ariadne','S2','Gabriel']
+const names = ['Sthe','S2','Gabriel']
 // exemplo abaixo colocando no primeiro índice o 0 também funcionaria
 names.splice(-(Number.MAX_VALUE), 0, 'MEU MOZÂO', 'VIDA', 'PERFEITA', 'DENGOSA') //adiciona no index colocado no 1º param  
 console.log(names)
