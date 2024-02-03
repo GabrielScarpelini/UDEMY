@@ -20,3 +20,30 @@
 
     chroot = é um comando que redefine a pasta raiz de um processo que tu quer executar
 }
+
+11th class imagens docker{
+    imagem é um modelo de sistema de arquivos usado para criar um container
+
+    pode criar uma imagem a partir de um build e o comando commit (commit não é uma boa prática) 
+    não tem um histórico, por isso não é bom vc não consegue ver o que fez pelo build
+
+    cada mudança no arquivo é uma camada
+    uma camada tbm é chamada de imagem intermediária
+    só a última camada pode ser alterada quando o container for iniciado
+
+    a junção das layers formam a imagem
+}
+
+12th class imagem x container{
+    imagem é tipo uma classe e o container é a criação do Objeto da classe
+}
+
+13th class arquitetura docker{
+    host = docker daemon == docker server == docker engine
+    registry = docker hub (ambiente de núvem)
+    client = app rest, >_(client linha de comando)
+}
+
+14th class instalação do docker{
+    
+}
